@@ -1,0 +1,20 @@
+{
+	"date": "2020-08-18",
+	"name": "Scamp Store",
+	"apps": [
+		{
+			"name": "DesignerTools",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "Designer tools",
+			"module_name": "DesignerTools",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/Campano/module-designertools.git\" } }"
+		},
+		{
+			"name": "Modificator",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "Modificator module",
+			"module_name": "Modificator",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/Campano/module-modificator.git\" } }"
+		}
+	]
+}

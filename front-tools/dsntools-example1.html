@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Simplicité</title>
+    <!-- Basic styling -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1/new.min.css">
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+
+    <!-- SIM Module (useless when using external object) -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Campano/module-designertools@latest/resources/Disposition/default/dsn-tools.js"></script>
+
+    <script type="text/javascript">
+        sim.init({ // init : dynamically loads ajax-bundle from instance & declare params
+            instanceRoot: "https://demo.dev.simplicite.io",
+            endpoint: "api",
+            params: null,
+            log: 'log-container-id', //false, true, 'debug', 'container-id'
+        },{ 
+            login: "website",
+            password: "simplicite",
+            tryToken: true
+        })
+        .then(function(){
+            let app = sim.getApp();
+            // use the app object as if it were fetched in external object with $ui.getApp();
+            sim.disp(
+                'Simplicité "Ajax" object available for tests, connected with user "'
+                +app.grant.login
+                +'". See docs at https://docs.simplicite.io/4.0/jsdoc/Simplicite.Ajax.html',
+                'log-container-id'
+            );
+        });
+    </script>
+</head>
+<body>
+    <div id="log-container-id"></div>
+</body>
