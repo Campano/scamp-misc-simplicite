@@ -15,6 +15,13 @@
 			"description": "Modificator module",
 			"module_name": "Modificator",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/Campano/module-modificator.git\" } }"
+		},
+		{
+			"name": "Trello -> Redmine",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "Basic tool to facilitats project migration from Trello Boards to a Redmine instance",
+			"module_name": "Trello2Redmine",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-trello2redmine.git\" } }"
 		}
 	]
 }
