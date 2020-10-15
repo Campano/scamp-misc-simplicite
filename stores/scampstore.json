@@ -22,6 +22,13 @@
 			"description": "Basic tool to facilitats project migration from Trello Boards to a Redmine instance",
 			"module_name": "Trello2Redmine",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-trello2redmine.git\" } }"
+		},
+		{
+			"name": "HTML -> PDF",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "Tester Tool for http://community.simplicite.io/t/pdf-publication/2159/3",
+			"module_name": "Html2Pdf",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-html2pdf.git\" } }"
 		}
 	]
 }
