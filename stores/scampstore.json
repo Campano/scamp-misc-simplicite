@@ -29,6 +29,13 @@
 			"description": "Tester Tool for http://community.simplicite.io/t/pdf-publication/2159/3",
 			"module_name": "Html2Pdf",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-html2pdf.git\" } }"
+		},
+		{
+			"name": "Project Management",
+			"logo": "https://github.com/simplicitesoftware/module-projects/blob/master/resources/Disposition/default/projects-module.svg?raw=true",
+			"description": "Ticketing management",
+			"module_name": "Projects",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-projects.git\" } }"
 		}
 	]
 }
