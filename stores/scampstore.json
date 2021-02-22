@@ -36,6 +36,13 @@
 			"description": "Ticketing management",
 			"module_name": "Projects",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-projects.git\" } }"
+		},
+		{
+			"name": "Mail Tester",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "Mail Tester Tool",
+			"module_name": "MailTester",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
 		}
 	]
 }
