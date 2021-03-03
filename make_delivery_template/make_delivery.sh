@@ -22,6 +22,12 @@ read version
 ROOT_LIVRABLE="SimpliciteDeliverable"
 REPO_DIR="repo"
 
+
+
+mkdir $ROOT_LIVRABLE
+date > $ROOT_LIVRABLE/generation_date.txt
+i=0
+
 declare -a repositories=(
     "https://github.com/Campano/module-designertools.git"
     "https://github.com/simplicitesoftware/module-frontauth.git"
@@ -29,9 +35,7 @@ declare -a repositories=(
     "https://github.com/simplicitesoftware/module-ktmcontent.git"
 )
 
-mkdir $ROOT_LIVRABLE
-date > $ROOT_LIVRABLE/generation_date.txt
-i=0
+# ========= CREATE MODULE ZIPS IN RIGHT ORDER FROM REPO ===========
 
 for r in "${repositories[@]}"
 do
@@ -58,6 +62,15 @@ do
     cd -
     rm -rf $REPO_DIR
 done
+
+# ========= PROJECT SPECIFICS ===========
+
+# copy last install manual available (sort by date)
+# find ../manual/ -name "install_exploit_manual*" | sort -r | head -n 1 | xargs -I '{}' cp '{}' $ROOT_LIVRABLE/
+
+cp KtmConfig* $ROOT_LIVRABLE/
+
+# ========= GENERATE DELIVERABLE ===========
 
 NAME=$ROOT_LIVRABLE"_"$version"_$(date +'%Y-%m-%d').tgz"
 echo ""
