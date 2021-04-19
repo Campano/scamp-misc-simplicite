@@ -43,6 +43,13 @@
 			"description": "Mail Tester Tool",
 			"module_name": "MailTester",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
+		},
+		{
+			"name": "Artil",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"description": "Art collection management",
+			"module_name": "Artil",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
 		}
 	]
 }
