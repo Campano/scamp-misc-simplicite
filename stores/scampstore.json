@@ -1,5 +1,5 @@
 {
-	"date": "2020-08-18",
+	"date": "2021-12-20",
 	"name": "Scamp Store",
 	"apps": [
 		{
@@ -10,11 +10,11 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/Campano/module-designertools.git\" } }"
 		},
 		{
-			"name": "Modificator",
+			"name": "SimFeatures",
 			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
-			"description": "Modificator module",
-			"module_name": "Modificator",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/Campano/module-modificator.git\" } }"
+			"description": "Simplicité Features",
+			"module_name": "SimFeatures",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-SimFeatures.git\" } }"
 		},
 		{
 			"name": "Trello -> Redmine",
@@ -23,33 +23,5 @@
 			"module_name": "Trello2Redmine",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-trello2redmine.git\" } }"
 		},
-		{
-			"name": "HTML -> PDF",
-			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
-			"description": "Tester Tool for http://community.simplicite.io/t/pdf-publication/2159/3",
-			"module_name": "Html2Pdf",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-html2pdf.git\" } }"
-		},
-		{
-			"name": "Project Management",
-			"logo": "https://github.com/simplicitesoftware/module-projects/blob/master/resources/Disposition/default/projects-module.svg?raw=true",
-			"description": "Ticketing management",
-			"module_name": "Projects",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-projects.git\" } }"
-		},
-		{
-			"name": "Mail Tester",
-			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
-			"description": "Mail Tester Tool",
-			"module_name": "MailTester",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-mailtester.git\" } }"
-		},
-		{
-			"name": "Artil",
-			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
-			"description": "Art collection management",
-			"module_name": "Artil",
-			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-artil.git\" } }"
-		}
 	]
 }
