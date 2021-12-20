@@ -22,6 +22,6 @@
 			"description": "Basic tool to facilitats project migration from Trello Boards to a Redmine instance",
 			"module_name": "Trello2Redmine",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-trello2redmine.git\" } }"
-		},
+		}
 	]
 }
