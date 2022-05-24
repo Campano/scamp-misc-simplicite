@@ -29,6 +29,13 @@
 			"description": "Documentation module",
 			"module_name": "Training",
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-training.git\" } }"
+		},
+		{
+			"name": "Customer Relationship Management",
+			"logo": "https://github.com/simplicitesoftware/module-rh/blob/master/resources/Disposition/default/rh-module.svg?raw=true",
+			"description": "Example CRM module",
+			"module_name": "Crm",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-crm2.git\" } }"
 		}
 	]
 }
