@@ -16,6 +16,12 @@
 			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/Campano/simplicite_reflex.git\" } }"
 		},
 		{
+			"name": "Executor",
+			"description": "Executor",
+			"module_name": "Executor",
+			"module_settings": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/Campano/module-Executor.git\" } }"
+		},
+		{
 			"name": "SimFeatures",
 			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
 			"description": "Simplicité Features",
