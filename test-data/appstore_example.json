@@ -14,6 +14,13 @@
 				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
 				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }"
 			}
+		},
+		{
+			"name": "Test",
+			"module_name": "Test",
+			"settings_by_platform": {
+				"<=6": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-test.git\" } }"
+			}
 		}
 	]
 }
