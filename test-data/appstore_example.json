@@ -1,0 +1,19 @@
+{
+	"date": "2023-08-04",
+	"name": "Apps",
+	"store-version": "2",
+	"apps": [
+		{
+			"name": "Demo",
+			"logo": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module.svg?raw=true",
+			"screenshot": "https://github.com/simplicitesoftware/module-demo/blob/master/resources/Disposition/default/demo-module-screenshot.png?raw=true",
+			"description": "Order management demo",
+			"url": "https://simplicitesoftware.github.io/module-demo/",
+			"module_name": "Demo",
+			"settings_by_platform": {
+				"~5": "{ \"type\": \"git\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }",
+				"~6": "{ \"type\": \"git\", \"branch\": \"v6\", \"origin\": { \"uri\": \"https://github.com/simplicitesoftware/module-demo.git\" } }"
+			}
+		}
+	]
+}
